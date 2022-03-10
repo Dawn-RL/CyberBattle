@@ -1,0 +1,34 @@
+
+
+Model.py
+'Physical vuln' definition added
+
+------------------------------
+Gen_Social_Network.py
+'Physical vuln' definition added 
+
+--------------------------------
+CommandControl.py
+
+actions.EdgeAnnotation.PHYSICAL: blue
+
+
+Error: KeyError 'kind'
+
+Function:
+  def edge_text(source: model.NodeID, target: model.NodeID) -> str:
+  
+      data = self.__environment.network.get_edge_data(source, target)
+      name: str = data['kind'].name 
+      return name
+
+Output:
+Data for Source '41' to Target '26'-> '{'protocol': {'RDP'}}'
+
+Fix:
+  TBC..
+  
+  
+  
+  
+--------------------------------
