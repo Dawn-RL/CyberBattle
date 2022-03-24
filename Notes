@@ -29,6 +29,11 @@ Fix:
   TBC..
   
   
-  
+
+Attack Pathway - 
+Internal Node ->  Knows_on_Capture(local) -> Leaked Human Node -> 
+
+Cyberbattle_env.py
+
   
 --------------------------------
